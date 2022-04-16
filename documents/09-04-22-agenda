@@ -1,0 +1,32 @@
+Agenda - 09-04-2022
+
+What is selenium?
+
+It's an open source automation tool/Framework / Set of Libraries/ Project/ API
+for web Based testing only
+
+Web Based App - Selenium (90% Web Based app, facebook google)/ QTP/UFT -Mercury - vb script
+Desktop App - QTP/UFT
+Database Application  - SQL, MySql , Hadoop
+Mobilr App - Robotium, Calabash, Appium.
+Webservice (REST/SOAP) - Postman, SOAP UI, Rest Assured.
+
+Selenium - 2004 Dev - Jason Huggins - ThoughWorks
+
+Feature of Selenium
+Multi Browser Support : IE, Chrome, FF, Safari, Opera etc.
+Mutli Language        : Java, C#, Python, Ruby, JS etc.
+Multi Platform Support: Win, Linux, mac, solaris, ios android etc.
+
+DisAdvantage of Selenium
+1. it's not support desktop application
+2. it's not support Captcha
+3. it's not generate reports -- We overcome this using third party tool
+
+Has 4 Component - IDE, RC, WebDriver, GRID
+
+Selenium Remote Control (RC) and Selenium IDE
+Selenium 1.0 - IDE, RC, Grid1
+Selenium 2.0 - WebDriver + RC - 2.53.1 was last version + Grid2
+Selenium 3.0 - 3.141.59 - WebDriver + W3C Spec Recommandation + Grid3
+Selenium 4.0 - 4.0.0 - WebDriver +  W3C Spec Recomandation + Grid4
