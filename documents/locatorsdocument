@@ -52,3 +52,41 @@ contains()
 starts-with()
 text()
 chained xpath
+
+//input[@id='search_query_top' or @name='search_queryX']
+
+contains()
+-----------------------------------------------------
+
+//tagname[contains(@attribute, 'value')]
+//input[@id = 'firstname']  ---->  Basic xpath
+//input[contains(@id, 'first')]  ---> using contains()
+
+//input[@id = 'start']
+//input[@id= 'stop']
+//input[contains(@id, 'st')]  -----> Dynamic xpath
+//input[starts-with(@id, 'st')]  ----> Dynamic xpath
+
+text()
+-----------------------------------------------------
+//a[text()='Women']
+
+chained xpath
+--------------
+//form[@id='searchbox']//input[@id='search_query_top']
+//form[@id='searchbox']//input[4]
+
+XPath Axes
+-----------------------------------------------------
+XPath axes are those axes that are usded to search for the multiple nodes in the XML document from the current node context.
+These methods are mainly used when the web element is not identified with the help of ID, name, class name, link text, css selector.
+
+Self
+Parent
+Child
+Ancestor
+Descendant
+Following
+Following-sibling
+Preceding
+Preceding-sibling
