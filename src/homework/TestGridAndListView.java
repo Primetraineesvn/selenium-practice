@@ -40,7 +40,7 @@ public class TestGridAndListView extends Utility {
         mouseHoverToElement(By.xpath("//ul[contains(@class, 'notmobile')]//a[text() = 'Computers ']"));
         mouseHoverToElementAndClick(By.xpath("//ul[contains(@class, 'notmobile')]//a[text() = 'Software ']"));
 
-        clickOnElement(By.xpath("//a[@title='List']"));  // Click on List View tab
+        clickOnElement(By.xpath("//a[@title='Grid']"));  // Click on List View tab
         try {
             WebElement listView = driver.findElement(By.xpath("//div[@class='products-wrapper']//div[@class='product-list']"));
             Assert.assertTrue(listView.isDisplayed());
